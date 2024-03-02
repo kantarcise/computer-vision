@@ -1,3 +1,16 @@
+""" This script is for using Viola-Jones method 
+for face detection on webcam. 
+
+The Paper: https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf
+
+'Used in real-time applications, the detector runs at 15 
+frames per second without resorting to image differencing 
+or skin color detection.'
+
+This was the first real application of CV, implemented in a 
+digital camera as a face detector in 2006 by Fujifilm.
+"""
+
 import cv2
 import os
 from pathlib import Path
@@ -18,7 +31,6 @@ while True:
     _, frame = webcam.read() # True, Array
 
     # Viola Jones works on grey scale images:
-    # https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
     face_rectangle = detector.detectMultiScale(

@@ -3,6 +3,11 @@ From the beginning of CV, most important papers, re-implemented for real world u
 
 The suggestions from ChatGPT:
 
+0. ***A General Framework for Object Detection***
+    - **Paper::** C. Papageorgiou, M. Oren and T. Poggio, “A General Framework for Object Detection,” (1998)
+    - **Description:** a general framework for object detection that involves dividing an image into smaller regions and applying a classifier to each region to determine whether it contains an object. The framework also includes a novel feature extraction method called the "local binary pattern" (LBP) that is used to represent the texture information in each region. The authors also propose a new algorithm called the "integral image" that allows for fast and efficient computation of the LBP features.
+    - **Implementation:** ?
+
 1. **Viola&Jones Face Detection Framework**
     
     - **Paper:** P. Viola, M. Jones, "Rapid Object Detection using a Boosted Cascade of Simple Features" (2001)
@@ -25,7 +30,7 @@ The suggestions from ChatGPT:
     
     - **Paper:** N. Dalal, B. Triggs, "Histograms of Oriented Gradients for Human Detection" (2005)
     - **Description:** Introduces HOG, a feature descriptor for object detection that captures local object appearance and shape information.
-    - **Implementation:** Implement HOG feature extraction and use it for pedestrian detection in images.
+    - **Implementation:** Implement HOG feature extraction and use it for pedestrian detection in images. (https://scikit-image.org/docs/stable/auto_examples/features_detection/plot_hog.html)
 
 5. **ImageNet Classification with Deep Convolutional Neural Networks**
     
