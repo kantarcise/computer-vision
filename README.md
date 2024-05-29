@@ -13,3 +13,8 @@ Because mind maps always help you discover.
     - **Paper:** Let's discover how cameras .
     - **Description:** We will try to undertstand the basics of analog and digital cameras. We will dive deep about the technology for the camera of iPhone 11 Pro and iPhone 15.
     - **Implementation:** All the recommended reads are in the notebook.
+
+3. [**Visual Cortex - What is the origin of Computer Vision? Hubel - Wiesel, Marr, Brooks, Fischler**](https://github.com/kantarcise/computer-vision/blob/main/cv/hubel_wiesel_MIT_Marr_Brooks_Fischler.ipynb)
+    - **Paper:** A lot of Papers inside this notebook, all linked in the markdown cells.
+    - **Description:** This session we discover the initial research on Computer Vision and tyr to understand how human visual cortex work. 
+    - **Implementation:** Mostly recommended readings and videos, no code yet.
